@@ -18,28 +18,38 @@ body{
     background: url('https://images.unsplash.com/photo-1535957998253-26ae1ef29506?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
 }
 .form{
+    display: flex;
     width: 50%;
     text-align: center;
     justify-content: center;
 }
 .tarjeta{
+    margin: auto;
     padding: 40px;
     border-radius: 20px;
     width: 300px;
     text-align: center;
+    background-color: rgb(150, 93, 60);
+    height: 75%;
+    width: 60%;
 }
-@media(orientation: portrait){
-    
-        .contenedor{
-            flex-direction: column;
-        }
-        .fondo{
-            height: 25%;
-        }
-        form{
-            height: 75%;
-        }
-    
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 0 0 50px;
+    height: 30px ;
+}
+button{
+    height: 30px;
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+}
+.tituloinicio{
+    margin: 0 0 50px 0;
+    font-size:2vw ;
 }
 /*Menu*/
 .bruce{
