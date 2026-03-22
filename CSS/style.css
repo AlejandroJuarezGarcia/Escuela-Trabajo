@@ -41,7 +41,7 @@ input{
     margin: 0 0 50px;
     height: 30px ;
 }
-button{
+.btn_inicio{
     height: 30px;
     width: 20%;
     margin: auto;
@@ -53,11 +53,33 @@ button{
 }
 /*Menu*/
 .bruce{
-    background: url(https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    height: 10vh;
+    background: url(https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)center/cover no-repeat;
+    height: 30vh;
 }
+.seccion_buscar{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.tarjetas{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.card-body{
+    text-align: center;
+}
+.buscador{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buscar{
+    width: 60%;
+}
+
 /*Menu alumno*/
-a{
+.l_alumno{
     background-color: rgb(207, 59, 59);
     color: white;
     text-decoration: none;
