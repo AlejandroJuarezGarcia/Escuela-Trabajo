@@ -99,7 +99,7 @@ input{
 .parent {
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(7, 1fr);
+grid-template-rows: repeat(9, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
@@ -111,3 +111,34 @@ grid-row-gap: 0px;
 .div5 { grid-area: 5 / 1 / 6 / 2; }
 .div6 { grid-area: 6 / 1 / 7 / 2; }
 .div7 { grid-area: 7 / 1 / 8 / 2; }
+.div8 { grid-area: 8 / 1 / 9 / 2; }
+.div9 { grid-area: 9 / 1 / 10 / 2; }
+
+.registro{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.fila_label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 15px;
+}
+.fila_input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    width: 70%;
+}
+.registrar{
+    margin: auto;
+    width: 25%;
+}
+.titulo{
+    background-color: rgb(134, 50, 50);
+    color: rgb(219, 154, 70);
+    text-align: center;
+}
