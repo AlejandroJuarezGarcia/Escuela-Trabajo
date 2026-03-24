@@ -4,7 +4,10 @@
     box-sizing:border-box;
     font-family: Arial, sans-serif;
 }
-
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 body{
     background:#e6e6e6;
 }
@@ -142,3 +145,33 @@ grid-row-gap: 0px;
     color: rgb(219, 154, 70);
     text-align: center;
 }
+/*Calificar*/
+.tabla_cal {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 50px;
+}
+.columna1 { grid-area: 1 / 1 / 2 / 2; }
+.columna2 { grid-area: 1 / 2 / 2 / 3; }
+.columna3 { grid-area: 1 / 3 / 2 / 4; }
+.celda4 { grid-area: 2 / 1 / 3 / 2; }
+.celda5 { grid-area: 2 / 2 / 3 / 3; }
+.celda6 { grid-area: 2 / 3 / 3 / 4; }
+.celda7 { grid-area: 3 / 1 / 4 / 2; }
+.celda8 { grid-area: 3 / 2 / 4 / 3; }
+.celda9 { grid-area: 3 / 3 / 4 / 4; }
+
+.columna{
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid gray ;
+}
+.celda{
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+}
+
