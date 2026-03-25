@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar alumnos</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
-<body>
-    <div class="titulo">
-    <h1>Registro de alumno</h1>
-    <h2>LLena los campos</h2>
-    </div>
-    <form action="" class="registro">
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div2"> </div>
-            <div class="div3"> </div>
-            <div class="div4"> </div>
-            <div class="div5"> </div>
-            <div class="div6"> </div>
-            <div class="div7"> </div>
-            
+<body >
+        <header>
+      <nav class="animate__animated animate__fadeIn">
+        <div id="iconos" class="cfondo2 ">
+          <ul>
+            <li><a href="menu.html"><p style="color: #F2E3D5;">Regresar</p></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""><p style="color: #F2E3D5;">Cerrar sesion</p></a></li>
+          </ul>
         </div>
-        
-        <div class="parent">
+      </nav>
+    </header>
+
+    <div class="titulo animate__animated animate__fadeIn">
+    <h1>Registro de alumno</h1>
+    <h2 style="margin-top: 10px;">LLena los campos</h2>
+    </div>
+    <form action="" class="animate__animated animate__fadeIn">
+        <div class="parent registro">
         <div class="div1"><label for="nombre" class="fila_label">Nombre: </label><input type="text" name="nombre" class="fila_input" required> </div>
         <div class="div2"><label for="app" class="fila_label">Apellido Paterno: </label><input type="text" name="app" class="fila_input" required> </div>
         <div class="div3"><label for="apm" class="fila_label">Apellido materno: </label><input type="text" name="apm" class="fila_input" required> </div>
@@ -36,9 +40,10 @@
             <option value="2">Ingenieria en mecatronica</option>
             <option value="3">Ingenieria industrial</option>
             <option value="4">Ingenieria mecanica</option>
-        </select> </div>
+        </select> 
+        </div>
         <div class="div9"><label for="direccion" class="fila_label">Direccion:</label><input type="text" name="direccion" class="fila_input" required> </div>
-        <button class="registrar">Registrar alumno</button> 
+        <button class="registrar hvr-fade" type="submit">Registrar alumno</button> 
         </div> 
     </form>
 </body>
